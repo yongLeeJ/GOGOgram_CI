@@ -1,0 +1,9 @@
+.GameBoard{
+    width: 1280px; height: 720px;
+    border: 1px solid white;
+    margin: auto auto;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(153, 153, 153, 0.3);
+    box-sizing: border-box;
+}
