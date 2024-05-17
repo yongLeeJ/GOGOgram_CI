@@ -1,9 +1,9 @@
 import { useState } from 'react';
-// import "./Puzzle.css";
+import "./Rank.css";
 
 function Rank() {
     return (
-        <div>rank
+        <div className='rankbox'>rank
         </div>
 
     )

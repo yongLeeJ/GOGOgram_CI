@@ -1,0 +1,7 @@
+.howto{
+    width: 280px; height: 320px;
+    border: 1px solid salmon;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}

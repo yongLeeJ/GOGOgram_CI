@@ -1,9 +1,9 @@
 import { useState } from 'react';
-// import "./Puzzle.css";
+import "./Howto.css";
 
 function Howto() {
     return (
-        <div>Howto
+        <div className='howto'>Howto
         </div>
 
     )

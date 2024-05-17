@@ -9,12 +9,26 @@ import Rank from './Rank';
 function Game() {
     return (
     <div className='GameBoard'>
-        <div className='ToolBar'></div>
+        <div className='ToolBox'>
+            <div className='ToolBar'>
+                <div className='toolGroup1'>
+                    <button>H</button>
+                    <button>↺</button>
+                </div>
+                
+                <div className='Clock'>Clock</div>
+                
+                <div className='toolGroup2'>
+                    <button>◀</button>
+                    <button>▶</button>
+                </div>
+            </div>
+        </div>
         <div className='boardBox'>
             <div className='nothing'></div>
             <div className='middlebox'>
                 <Board/>
-                <div className='summit'>SUBMIT</div>
+                <button className='summit'>SUBMIT</button>
             </div>
             <div className='help'>
                 <Howto/>

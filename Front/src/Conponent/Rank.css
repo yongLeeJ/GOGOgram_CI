@@ -1,0 +1,6 @@
+.rankbox{
+    width: 280px; height: 320px;
+    border: 1px solid darkmagenta;
+    box-sizing: border-box;
+    margin-left: 60px;
+}

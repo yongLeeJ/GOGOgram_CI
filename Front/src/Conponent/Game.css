@@ -7,3 +7,57 @@
     background-color: rgba(153, 153, 153, 0.3);
     box-sizing: border-box;
 }
+.ToolBox{
+    width: 1280px; height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.ToolBar{
+    width: 600px; height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boardBox{
+    width: 1280px; height: 650px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.nothing{
+    width: 340px; height: 650px;
+    border: 3px solid red;
+    box-sizing: border-box;
+}
+
+.middlebox{
+    width: 600px; height: 650px;
+    border: 3px solid green;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help{
+    width: 340px; height: 650px;
+    border: 3px solid blue;
+    box-sizing: border-box;
+}
+
+.nonogram{
+    align-self:flex-start;
+}
+
+.summit{
+    width: 150px; height: 40px;
+    border-radius: 20px;
+    margin: 5px auto;
+
+    font-size: 20px;
+    font-family: "PressStart2P-Regular";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
