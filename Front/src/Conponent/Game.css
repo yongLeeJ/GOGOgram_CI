@@ -12,10 +12,19 @@
     display: flex;
     justify-content: center;
 }
+.StageName{
+    width: 340px; height: auto;
+    text-align: center;
+    font-size: 22px;
+}
 .ToolBar{
     width: 600px; height: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+.Clock{
+    font-size: 22px;
 }
 
 .boardBox{
@@ -25,7 +34,7 @@
 }
 
 .nothing{
-    width: 340px; height: 650px;
+    width: 340px; height: auto;
     border: 3px solid red;
     box-sizing: border-box;
 }

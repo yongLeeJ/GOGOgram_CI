@@ -10,6 +10,7 @@ function Game() {
     return (
     <div className='GameBoard'>
         <div className='ToolBox'>
+            <div className='StageName'>Stage n</div>
             <div className='ToolBar'>
                 <div className='toolGroup1'>
                     <button>H</button>
@@ -23,6 +24,7 @@ function Game() {
                     <button>▶</button>
                 </div>
             </div>
+            <div className='nothing'></div>
         </div>
         <div className='boardBox'>
             <div className='nothing'></div>
